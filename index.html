@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashain Count Down</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class ="main-class" data-main-class>
+
+        <h2 id="countdown-heading">Countdown till New Year 2079</h2>
+        <div class="container">
+            <div class="count">
+                <p class="day-count" data-day>0</p>
+                <span class = "day">Days</span>
+            </div>
+            <div class = "count">
+                <p class="hour-count" data-hour>0</p>
+                <span class="hour">Hours</span>
+            </div>
+            <div class="count">
+                <p class="minute-count" data-minute>0</p>
+                <span class="minute">Minutes</span>
+            </div>
+            <div class="count">
+                <p class = "second-count" data-second>0</p>
+                <span class="second">Seconds</span>
+            </div>
+        </div>
+        <div class = "change-countdown">
+            <button class="change-countdown-button" id="change-countdown-button">
+                <img class = "plus-icon" src="https://img.icons8.com/pastel-glyph/128/000000/plus--v2.png"/>
+            </button>
+        </div>
+    </main>
+    <div class="change-countdown-screen hidden" data-set-countdown-screen>
+        <h2>Set Countdown</h2>
+        <input type="text" value="" placeholder="Countdown For" id="countdown-name" autocomplete="off">
+        <input type="date" name="" id="select-date">
+        <button id="start-countdown-button" >Set Countdown</button>
+    </div>
+
+    
+</body>
+</html>
