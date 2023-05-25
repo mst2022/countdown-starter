@@ -1,4 +1,4 @@
-let date = new Date('26 October 2022');
+let date = new Date('26 October 2023');
 
 
 const day = document.querySelector('[data-day]');
