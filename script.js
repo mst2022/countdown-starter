@@ -1,4 +1,4 @@
-let date = new Date('14 April 2022');
+let date = new Date('26 October 2022');
 
 
 const day = document.querySelector('[data-day]');
@@ -60,5 +60,5 @@ function startCountDown() {
 }
 
 
-startCountDown()
+startCountDown();
 setInterval(startCountDown, 1000);
